@@ -3,6 +3,7 @@ class Manager {
     constructor(name, age) {
         this.name = name;
         this.age = age;
+        this.phone = 9322000000; // here you need to initialize it 
     }
 }
 let user3 = new Manager("Vinayak", 20);

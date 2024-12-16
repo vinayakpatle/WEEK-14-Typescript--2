@@ -6,10 +6,12 @@ interface people2{
 class Manager implements people2{
     name:string;
     age:number;
+    phone:number;// you can add some extra also ahead of people interface
 
     constructor(name: string,age: number){
         this.name=name;
         this.age=age;
+        this.phone=9322000000; // here you need to initialize it 
     }
 }
 
